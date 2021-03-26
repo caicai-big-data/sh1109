@@ -13,6 +13,7 @@ public class MyUDF extends GenericUDF {
     @Override
     /**
      * 判断传进来参数的类型，长度
+     
      * 约定返回的数据类型
      */
     public ObjectInspector initialize(ObjectInspector[] arguments) throws UDFArgumentException {
